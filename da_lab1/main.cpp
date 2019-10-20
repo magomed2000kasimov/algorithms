@@ -1,10 +1,5 @@
 
 #include <iostream>
-//#include "vector.h"
-#include <algorithm>
-
-
-
 
 template<typename T>
 class TVector {
@@ -46,7 +41,7 @@ public:
         return Data[number];
     }
 
-    void Push_back(const T &elem) {
+    void PushBack(const T &elem) {
         if (SizeVector == Capacity) {
             size_t new_cap = Capacity == 0 ? 1 : Capacity * 2;
             T *temp = new T[new_cap];
@@ -155,14 +150,14 @@ int main() {
     Filling(lol.value);
     int max_key = -1;
     while (std::cin >> lol) {
-        input_vector.Push_back(lol);
+        input_vector.PushBack(lol);
         if (lol.key > max_key) {
             max_key = lol.key;
         }
         Filling(lol.value);
     }
-    std::sort(input_vector.begin(),input_vector.end(), sort_object);
-    //TVector<KV> res = Counting(input_vector, max_key);
+
+    TVector<KV> res = Counting(input_vector, max_key);
     for (size_t i = 0; i < input_vector.Size(); ++i) {
         std::cout << input_vector[i] << std::endl;
     }

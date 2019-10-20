@@ -33,7 +33,7 @@ public:
         return Data[number];
     }
 
-    void Push_back(const T &elem) {
+    void PushBack(const T &elem) {
         if (SizeVector == Capacity) {
             size_t new_cap = Capacity == 0 ? 1 : Capacity * 2;
             T *temp = new T[new_cap];

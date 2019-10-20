@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="heap"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="M:/algorithms/heap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heap">
+				<Option output="M:/algorithms/heap/cmake-build-debug/heap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="M:/algorithms/heap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="M:/CLion 2019.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="M:/CLion 2019.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="M:/CLion 2019.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="M:/CLion 2019.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="M:/CLion 2019.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="M:/CLion 2019.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 heap"/>
+					<CompileFile command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heap/fast">
+				<Option output="M:/algorithms/heap/cmake-build-debug/heap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="M:/algorithms/heap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="M:/CLion 2019.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="M:/CLion 2019.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="M:/CLion 2019.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="M:/CLion 2019.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="M:/CLion 2019.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="M:/CLion 2019.1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 heap/fast"/>
+					<CompileFile command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="M:/algorithms/heap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="M:/algorithms/heap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="M:/CLion 2019.1/mingw64/bin/mingw32-make.exe -f &quot;M:/algorithms/heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="M:/algorithms/heap/main.cpp">
+			<Option target="heap"/>
+		</Unit>
+		<Unit filename="M:/algorithms/heap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
